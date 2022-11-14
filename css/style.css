@@ -1,0 +1,115 @@
+/* Styling */
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(/img/bg.jpg);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 18px;
+}
+
+.left img {
+    width: 120px;
+    height: 60px;
+    filter: invert(100%);
+
+}
+.left div {
+    color: rgb(177, 177, 98);
+    left: 30px;
+    width: 100%;
+    text-align: center;   
+}
+
+.mid {
+    display: block;
+    width: 46%;
+    margin: 18px auto;
+    font-size: larger;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 27px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(202, 107, 107);
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 10px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(71, 68, 68);
+
+}
+
+.container {
+    border: 2px solid white;
+    margin: 79px 44px;
+    padding: 40px 40px;
+    width: 30%;
+    border-radius: 35px;
+    width: 33%;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 36px;
+}
+.container h2 span {
+    color:rgb(202, 107, 107);
+}
+
+.container button {
+    display: block;
+    width: 87%;
+    margin: 25px auto;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 87%;
+    margin: 8px auto;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
